@@ -31,7 +31,7 @@ public class Locator {
 		// tag name
 		// logical and = //tagname[@attribute='value' and @attribute='value']
 		// logical or = //tagname[@attribute='value' or @attribute='value']
-		cd.findElement(By.xpath("//input[@"))
+		
 		
 	}
 }
