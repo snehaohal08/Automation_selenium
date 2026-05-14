@@ -12,6 +12,7 @@ public class Select_alert {
 		ChromeDriver cd = new ChromeDriver(); 
 		cd.get("https://demo.automationtesting.in/Register.html");
 		cd.manage().window().maximize();
+		
 		// use for drop-down we use Select
 		// ONLY FINDOUT THAT ELEMENT (kontya element la select karaych ahe te )
 		
