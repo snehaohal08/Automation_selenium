@@ -23,5 +23,4 @@ public class Task3FB {
 		// Password
 		cd.findElements(By.cssSelector("input[dir='ltr']")).get(3).sendKeys("Sneha@123");
 	}
-	
 }
