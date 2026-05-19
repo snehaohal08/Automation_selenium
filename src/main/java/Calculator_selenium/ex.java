@@ -10,22 +10,35 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class ex {
 	ChromeDriver cd;
 	
-	void Arithmatic() throws InterruptedException{
-		cd = new ChromeDriver();
-		cd.get("https://www.calculator.net/");
-		cd.manage().window().maximize();
-		cd.findElement(By.xpath("//span[@onclick='r(1)']")).click();
-		Thread.sleep(2000);
-//		cd.findElement(By.xpath("//span[text()='Back']")).click();
-		cd.findElement(By.xpath("//span[text()='+']")).click();
-		Thread.sleep(2000);
-		cd.findElement(By.xpath("//span[text()='2']")).click();
-		Thread.sleep(2000);
-		cd.findElement(By.xpath("//span[text()='=']")).click();
-		WebElement ans = cd.findElement(By.id("sciOutPut"));
-		String result = ans.getText();
-		System.out.println("Addition = "+result);
-		cd.close();
+	void Arithmatic() throws InterruptedException {
+
+	    cd = new ChromeDriver();
+	    cd.get("https://www.calculator.net/");
+	    cd.manage().window().maximize();
+
+	    // create array
+	    int[] numbers = {1,2,3,4,5,6,7,8,9};
+
+	    // first number click
+	    cd.findElement(By.xpath("//span[@onclick='r(1)']")).click();
+	    Thread.sleep(500);
+
+	    for (int i = 1; i < numbers.length; i++) {
+
+	        cd.findElement(By.xpath("//span[text()='+']")).click();
+	        Thread.sleep(300);
+
+	        cd.findElement(By.xpath("//span[text()='" + numbers[i] + "']")).click();
+	        Thread.sleep(300);
+	    }
+
+	    cd.findElement(By.xpath("//span[text()='=']")).click();
+
+	    WebElement ans = cd.findElement(By.id("sciOutPut"));
+	    System.out.println("Addition = " + ans.getText());
+
+	    cd.findElement(By.xpath("//span[text()='AC']")).click();
+	    cd.close();
 	}
 	void footer()throws InterruptedException {
 		cd = new ChromeDriver();

@@ -2,16 +2,48 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-16T23:44:39 IST" name="Default suite" finished-at="2026-05-16T23:44:39 IST" duration-ms="49">
+  <suite started-at="2026-05-19T23:11:25 IST" name="Default suite" finished-at="2026-05-19T23:11:25 IST" duration-ms="64">
     <groups>
     </groups>
-    <test started-at="2026-05-16T23:44:39 IST" name="Default test" finished-at="2026-05-16T23:44:39 IST" duration-ms="49">
-      <class name="Test.Selenium_automation.Ex">
-        <test-method signature="extest()[pri:0, instance:Test.Selenium_automation.Ex@368f2016]" started-at="2026-05-16T23:44:39 IST" name="extest" finished-at="2026-05-16T23:44:39 IST" duration-ms="8" status="PASS">
+    <test started-at="2026-05-19T23:11:25 IST" name="Default test" finished-at="2026-05-19T23:11:25 IST" duration-ms="64">
+      <class name="Test.Selenium_automation.Annotation">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Test.Selenium_automation.Annotation@1165b38]" started-at="2026-05-19T23:11:25 IST" name="BeforeSuite" finished-at="2026-05-19T23:11:25 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- extest -->
-      </class> <!-- Test.Selenium_automation.Ex -->
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Test.Selenium_automation.Annotation@1165b38]" started-at="2026-05-19T23:11:25 IST" name="beforeTest" finished-at="2026-05-19T23:11:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="annotation2()[pri:0, instance:Test.Selenium_automation.Annotation@1165b38]" started-at="2026-05-19T23:11:25 IST" name="annotation2" finished-at="2026-05-19T23:11:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- annotation2 -->
+        <test-method is-config="true" signature="beforMethod()[pri:0, instance:Test.Selenium_automation.Annotation@1165b38]" started-at="2026-05-19T23:11:25 IST" name="beforMethod" finished-at="2026-05-19T23:11:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method signature="annotation3()[pri:0, instance:Test.Selenium_automation.Annotation@1165b38]" started-at="2026-05-19T23:11:25 IST" name="annotation3" finished-at="2026-05-19T23:11:25 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- annotation3 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:Test.Selenium_automation.Annotation@1165b38]" started-at="2026-05-19T23:11:25 IST" name="AfterMethod" finished-at="2026-05-19T23:11:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="annotation1()[pri:0, instance:Test.Selenium_automation.Annotation@1165b38]" started-at="2026-05-19T23:11:25 IST" name="annotation1" finished-at="2026-05-19T23:11:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- annotation1 -->
+        <test-method is-config="true" signature="AfterTestex()[pri:0, instance:Test.Selenium_automation.Annotation@1165b38]" started-at="2026-05-19T23:11:25 IST" name="AfterTestex" finished-at="2026-05-19T23:11:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestex -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:Test.Selenium_automation.Annotation@1165b38]" started-at="2026-05-19T23:11:25 IST" name="AfterSuite" finished-at="2026-05-19T23:11:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- Test.Selenium_automation.Annotation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
